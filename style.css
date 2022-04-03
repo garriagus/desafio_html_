@@ -1,0 +1,78 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margen: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;  /* tamaño del padding */  
+}
+
+header h1 {
+    font-size: 4rem; /*  ancho de letra*/
+    text-align: center; /* centrado  */
+}
+section h2 {
+    color: #fff;
+    border-style: solid;
+    border-color: rgb(15, 15, 87);
+    border-radius: 5px;
+    border-width: 5px;
+    background-color: rgb(8, 78, 87);
+    text-align: center;
+}
+.post {
+    background-color: rgb(26, 8, 87);
+}
+.post p {
+    color: #fff;
+}
+.contanier {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: all box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 30);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover { 
+    color: aquamarine;
+}
+
